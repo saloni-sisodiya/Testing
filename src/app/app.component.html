@@ -1,7 +1,6 @@
-<app-buy-glass></app-buy-glass>
-
-<div class="p-4 bg-white rounded-lg grid grid-cols-1 sm:grid-cols-2 gap-4">
-  <!-- <div class="p-4 bg-white rounded-lg grid grid-cols-1 md:grid-cols-2 gap-4"> -->
+<!-- <app-buy-glass></app-buy-glass>
+<div class="container responsive-grid">
+  <div class="p-4 bg-white rounded-lg grid grid-cols-1 md:grid-cols-2 gap-4">
   <div class="border-b border-gray-300 md:border-b-0 md:border-r">
     <app-order-sample></app-order-sample>
   </div>
@@ -15,4 +14,35 @@
     <app-cloud-saas-solution></app-cloud-saas-solution>
   </div>
 </div>
-<app-green-building-solution></app-green-building-solution>
+</div>
+<app-green-building-solution></app-green-building-solution> -->
+<app-buy-glass></app-buy-glass>
+<div class="container mx-auto px-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 bg-white rounded-lg">
+    
+    <!-- Order Sample Section -->
+    <div class="border-b border-gray-300 md:border-b-0 md:border-r">
+      <app-order-sample></app-order-sample>
+    </div>
+    
+    <!-- Glass Performance Calculator Section -->
+    <div class="border-b border-gray-300 md:border-b-0">
+      <app-glass-performance-calculator></app-glass-performance-calculator>
+    </div>
+    
+    <!-- Delivery Management System Section -->
+    <div class="md:border-r">
+      <app-delivery-management-system></app-delivery-management-system>
+    </div>
+    
+    <!-- Cloud SaaS Solution Section -->
+    <div>
+      <app-cloud-saas-solution></app-cloud-saas-solution>
+    </div>
+  </div>
+</div>
+
+<!-- Green Building Solution Section -->
+<div class="container mx-auto px-4 mt-4">
+  <app-green-building-solution></app-green-building-solution>
+</div>
